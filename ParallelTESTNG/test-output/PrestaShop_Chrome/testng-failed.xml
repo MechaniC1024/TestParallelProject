@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [PrestaShop_Chrome]" parallel="tests">
+  <test thread-count="2" name="Chrome_1(failed)" parallel="tests">
+    <classes>
+      <class name="Parallel.ParallelTESTNG.Test1">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="test"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- Parallel.ParallelTESTNG.Test1 -->
+    </classes>
+  </test> <!-- Chrome_1(failed) -->
+  <test thread-count="2" name="Chrome_2(failed)" parallel="tests">
+    <classes>
+      <class name="Parallel.ParallelTESTNG.Test2">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="test"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- Parallel.ParallelTESTNG.Test2 -->
+    </classes>
+  </test> <!-- Chrome_2(failed) -->
+  <test thread-count="2" name="Chrome_4(failed)" parallel="tests">
+    <classes>
+      <class name="Parallel.ParallelTESTNG.Test4">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- Parallel.ParallelTESTNG.Test4 -->
+    </classes>
+  </test> <!-- Chrome_4(failed) -->
+  <test thread-count="2" name="Chrome_5(failed)" parallel="tests">
+    <classes>
+      <class name="Parallel.ParallelTESTNG.Test5">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="test"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- Parallel.ParallelTESTNG.Test5 -->
+    </classes>
+  </test> <!-- Chrome_5(failed) -->
+  <test thread-count="2" name="Chrome_3(failed)" parallel="tests">
+    <classes>
+      <class name="Parallel.ParallelTESTNG.Test3">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="test"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- Parallel.ParallelTESTNG.Test3 -->
+    </classes>
+  </test> <!-- Chrome_3(failed) -->
+</suite> <!-- Failed suite [PrestaShop_Chrome] -->

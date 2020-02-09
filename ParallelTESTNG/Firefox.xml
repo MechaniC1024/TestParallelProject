@@ -1,0 +1,36 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Firefox" verbose="1" parallel="tests" thread-count="3">
+
+	<parameter name="Browser"  value="Firefox"/>
+	
+	<test name="Firefox_1">
+		<classes>
+			<class name="Parallel.ParallelTESTNG.Test1" />
+		</classes>
+	</test>
+	<test name="Firefox_2">
+		<classes>
+			<class name="Parallel.ParallelTESTNG.Test2" />
+		</classes>
+	</test>
+	<test name="Firefox_3">
+		<classes>
+			<class name="Parallel.ParallelTESTNG.Test3" />
+		</classes>
+	</test>
+	<test name="Firefox_4">
+		<classes>
+			<class name="Parallel.ParallelTESTNG.Test4" />
+		</classes>
+	</test>
+	<test name="Firefox_5">
+		<classes>
+			<class name="Parallel.ParallelTESTNG.Test5" />
+		</classes>
+	</test>
+	<test name="Firefox_6">
+		<classes>
+			<class name="Parallel.ParallelTESTNG.Test6" />
+		</classes>
+	</test>  
+</suite>

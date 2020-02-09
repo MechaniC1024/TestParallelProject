@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Chrome" duration-ms="47849" started-at="2020-02-09T01:41:01 MSK" finished-at="2020-02-09T01:41:49 MSK">
+    <groups>
+    </groups>
+    <test name="Chrome_1" duration-ms="11163" started-at="2020-02-09T01:41:01 MSK" finished-at="2020-02-09T01:41:12 MSK">
+      <class name="Parallel.ParallelTESTNG.Test1">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:Parallel.ParallelTESTNG.Test1@5bb21b69]" name="beforeTest" is-config="true" duration-ms="167" started-at="2020-02-09T01:41:01 MSK" finished-at="2020-02-09T01:41:01 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6dde5c8c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:Parallel.ParallelTESTNG.Test1@5bb21b69]" name="test" duration-ms="10902" started-at="2020-02-09T01:41:01 MSK" finished-at="2020-02-09T01:41:12 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:Parallel.ParallelTESTNG.Test1@5bb21b69]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-02-09T01:41:12 MSK" finished-at="2020-02-09T01:41:12 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6dde5c8c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Parallel.ParallelTESTNG.Test1 -->
+    </test> <!-- Chrome_1 -->
+    <test name="Chrome_2" duration-ms="8971" started-at="2020-02-09T01:41:13 MSK" finished-at="2020-02-09T01:41:22 MSK">
+      <class name="Parallel.ParallelTESTNG.Test2">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:Parallel.ParallelTESTNG.Test2@3aeaafa6]" name="beforeTest" is-config="true" duration-ms="473" started-at="2020-02-09T01:41:13 MSK" finished-at="2020-02-09T01:41:13 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5123a213]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:Parallel.ParallelTESTNG.Test2@3aeaafa6]" name="test" duration-ms="8423" started-at="2020-02-09T01:41:13 MSK" finished-at="2020-02-09T01:41:22 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:Parallel.ParallelTESTNG.Test2@3aeaafa6]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-02-09T01:41:22 MSK" finished-at="2020-02-09T01:41:22 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5123a213]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Parallel.ParallelTESTNG.Test2 -->
+    </test> <!-- Chrome_2 -->
+    <test name="Chrome_3" duration-ms="15234" started-at="2020-02-09T01:41:22 MSK" finished-at="2020-02-09T01:41:37 MSK">
+      <class name="Parallel.ParallelTESTNG.Test3">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:Parallel.ParallelTESTNG.Test3@612fc6eb]" name="beforeTest" is-config="true" duration-ms="45" started-at="2020-02-09T01:41:22 MSK" finished-at="2020-02-09T01:41:22 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52525845]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:Parallel.ParallelTESTNG.Test3@612fc6eb]" name="test" duration-ms="15176" started-at="2020-02-09T01:41:22 MSK" finished-at="2020-02-09T01:41:37 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:Parallel.ParallelTESTNG.Test3@612fc6eb]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-02-09T01:41:37 MSK" finished-at="2020-02-09T01:41:37 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52525845]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Parallel.ParallelTESTNG.Test3 -->
+    </test> <!-- Chrome_3 -->
+    <test name="Chrome_4" duration-ms="2780" started-at="2020-02-09T01:41:37 MSK" finished-at="2020-02-09T01:41:40 MSK">
+      <class name="Parallel.ParallelTESTNG.Test4">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:Parallel.ParallelTESTNG.Test4@6a1aab78]" name="beforeTest" is-config="true" duration-ms="50" started-at="2020-02-09T01:41:37 MSK" finished-at="2020-02-09T01:41:37 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3b94d659]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:Parallel.ParallelTESTNG.Test4@6a1aab78]" name="test" duration-ms="2711" started-at="2020-02-09T01:41:37 MSK" finished-at="2020-02-09T01:41:40 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:Parallel.ParallelTESTNG.Test4@6a1aab78]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-02-09T01:41:40 MSK" finished-at="2020-02-09T01:41:40 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3b94d659]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Parallel.ParallelTESTNG.Test4 -->
+    </test> <!-- Chrome_4 -->
+    <test name="Chrome_5" duration-ms="7037" started-at="2020-02-09T01:41:40 MSK" finished-at="2020-02-09T01:41:47 MSK">
+      <class name="Parallel.ParallelTESTNG.Test5">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:Parallel.ParallelTESTNG.Test5@4671e53b]" name="beforeTest" is-config="true" duration-ms="60" started-at="2020-02-09T01:41:40 MSK" finished-at="2020-02-09T01:41:40 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@24b1d79b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:Parallel.ParallelTESTNG.Test5@4671e53b]" name="test" duration-ms="6964" started-at="2020-02-09T01:41:40 MSK" finished-at="2020-02-09T01:41:47 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:Parallel.ParallelTESTNG.Test5@4671e53b]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-02-09T01:41:47 MSK" finished-at="2020-02-09T01:41:47 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@24b1d79b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Parallel.ParallelTESTNG.Test5 -->
+    </test> <!-- Chrome_5 -->
+    <test name="Chrome_6" duration-ms="1976" started-at="2020-02-09T01:41:47 MSK" finished-at="2020-02-09T01:41:49 MSK">
+      <class name="Parallel.ParallelTESTNG.Test6">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String, org.testng.ITestContext)[pri:0, instance:Parallel.ParallelTESTNG.Test6@3ecd23d9]" name="beforeSuite" is-config="true" duration-ms="27987" started-at="2020-02-09T01:40:33 MSK" finished-at="2020-02-09T01:41:01 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6fb0d3ed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:Parallel.ParallelTESTNG.Test6@3ecd23d9]" name="beforeTest" is-config="true" duration-ms="118" started-at="2020-02-09T01:41:47 MSK" finished-at="2020-02-09T01:41:47 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6fb0d3ed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:Parallel.ParallelTESTNG.Test6@3ecd23d9]" name="test" duration-ms="1855" started-at="2020-02-09T01:41:47 MSK" finished-at="2020-02-09T01:41:49 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:Parallel.ParallelTESTNG.Test6@3ecd23d9]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-02-09T01:41:49 MSK" finished-at="2020-02-09T01:41:49 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6fb0d3ed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Parallel.ParallelTESTNG.Test6@3ecd23d9]" name="afterSuite" is-config="true" duration-ms="414" started-at="2020-02-09T01:41:49 MSK" finished-at="2020-02-09T01:41:49 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Parallel.ParallelTESTNG.Test6 -->
+    </test> <!-- Chrome_6 -->
+  </suite> <!-- Chrome -->
+</testng-results>
