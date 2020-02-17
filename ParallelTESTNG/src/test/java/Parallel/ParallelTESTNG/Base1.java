@@ -32,8 +32,8 @@ static volatile Map<String, List<Driver>> map;
 		cap.setCapability("enableVNC", true);
 		cap.setCapability("enableLog", true);
 		cap.setCapability("logName", "my-cool-log.log");
-		//cap.setCapability("enableVideo", true);
-		//cap.setCapability("videoName", browser+".mp4");
+		cap.setCapability("enableVideo", true);
+		cap.setCapability("videoName", browser+".mp4");
 		
 		SingleDriver.getInstance().addBrowser(browser, 1, cap);
 		map = SingleDriver.getDriver();
