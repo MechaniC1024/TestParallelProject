@@ -35,7 +35,7 @@ static volatile Map<String, List<Driver>> map;
 		cap.setCapability("enableVideo", true);
 		cap.setCapability("videoName", browser+".mp4");
 		
-		SingleDriver.getInstance().addBrowser(browser, 1, cap);
+		SingleDriver.getInstance().addBrowser(browser, 2, cap);
 		map = SingleDriver.getDriver();
 
 		System.out.println();
