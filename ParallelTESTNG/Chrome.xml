@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Chrome" verbose="1" parallel="tests" thread-count="1">
+<suite name="Chrome" verbose="1" parallel="tests" thread-count="2">
 
 	<parameter name="Browser"  value="Chrome"/>
 
