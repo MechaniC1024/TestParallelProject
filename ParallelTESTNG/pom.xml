@@ -43,7 +43,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>${chrome}</suiteXmlFile>
-						<!--  <suiteXmlFile>${firefox}</suiteXmlFile>-->
+						<suiteXmlFile>${firefox}</suiteXmlFile>
 					</suiteXmlFiles>
 					<properties>
 						<property>
